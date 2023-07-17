@@ -1,3 +1,6 @@
+Q 5. Which products had a higher quantity sold compared to the average 
+quantity sold?
+
 select product_name,sum(quantity) AS total_revenue
 from transactions t 
 join sustainable_clothing s on t.product_id = s.Product_ID
