@@ -1,3 +1,7 @@
+Q 4 What is the top-selling product category based on the total revenue 
+generated?
+
+
 with CTE as
 (select category,sum(quantity*price) as total_revenue
 from transactions t
