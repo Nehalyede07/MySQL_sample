@@ -1,3 +1,5 @@
+Q 3. What is the total revenue generated from each marketing campaign?
+
 select 
 		campaign_name,sum(quantity*price) as total_revenue
 from transactions t
