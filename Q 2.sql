@@ -1,3 +1,5 @@
+Q 2. Which product had the highest sales quantity?
+
 with CTE as
 (select transactions.product_id,product_name,sum(quantity) as total_quantity_sold
 from transactions
