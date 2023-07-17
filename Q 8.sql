@@ -1,3 +1,7 @@
+Q 8. Compare the average quantity sold during marketing campaigns to 
+outside the marketing campaigns
+
+
 with CTE as
 (SELECT AVG(quantity) as avg_qty_during_campaign
 FROM transactions t
