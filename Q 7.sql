@@ -1,3 +1,6 @@
+Q 7. What is the percentage contribution of each product to the total 
+revenue?
+
 with CTE as
 (SELECT sum(Quantity*price) as total_revenue
 FROM transactions t
