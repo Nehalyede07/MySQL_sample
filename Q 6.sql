@@ -1,3 +1,6 @@
+Q 6. What is the average revenue generated per day during the marketing 
+campaigns?
+
 SELECT campaign_name, purchase_date,avg(QUANTITY*PRICE) AS avg_revenue
 FROM marketing_campaigns
 JOIN transactions
