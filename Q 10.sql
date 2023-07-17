@@ -1,3 +1,6 @@
+Q 10. Rank the products by their average daily quantity sold
+
+
 WITH CTE as
 (SELECT product_name,avg(Quantity) as Avg_sold_Quantity
 FROM transactions t 
